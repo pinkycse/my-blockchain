@@ -18,7 +18,7 @@ spec:
         imagePullPolicy: Always
         env:
         - name: MY_HOSTNAME
-          value: "node00.example-blockchain.com"
+          value: "ip-172-31-91-40"
         - name: MEMPOOL_DIR
           value: "/mem/mempool"
         - name: KNOWN_NODES_DIR
@@ -33,7 +33,7 @@ spec:
         imagePullPolicy: Always
         env:
         - name: MY_HOSTNAME
-          value: "node00.example-blockchain.com"
+          value: "ip-172-31-91-40"
         - name: MEMPOOL_DIR
           value: "/mem/mempool"
         - name: KNOWN_NODES_DIR
